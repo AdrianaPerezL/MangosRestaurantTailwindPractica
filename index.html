@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mangos Restaurant | Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Open+Sans:wght@300&family=Pontano+Sans&family=Roboto:wght@300&family=Tilt+Neon&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+    <div class="flex">
+      <div
+        class="flex lg:flex-row-reverse w-full lg:w-full p-3 fixed lg:bg-white1/[.7] sm:z-index-10 bg-black flex-row"
+      >
+        <img class="w-1 ml-10" src="img/img3.png" alt="" />
+        <ul class="lg:flex flex-row">
+          <a href="#index"
+            ><li class="text-orange1 font-font1 lg:ml-3 sm:ml-0 text-lg">
+              Inicio
+            </li></a
+          >
+          <a href="#about"
+            ><li class="text-orange1 font-font1 lg:ml-3 sm:ml-0 text-lg">
+              Sobre Nosotros
+            </li></a
+          >
+          <a href="#menu"
+            ><li class="text-orange1 font-font1 lg:ml-3 sm:ml-0 text-lg">
+              Menu
+            </li></a
+          >
+          <a href="#reservación"
+            ><li class="text-orange1 font-font1 lg:ml-3 sm:ml-0 text-lg">
+              Reservación
+            </li></a
+          >
+        </ul>
+      </div>
+    </div>
+
+    <section id="index" class="">
+      <img src="img/img1.jpg" class="w-full h-646 object cover" alt="" />
+    </section>
+
+    <section
+      id="info"
+      class="absolute top-200 lg:left-350 bg-white1/[.7] p-20 sm:20"
+    >
+      <div class="flex flex-col items-center">
+        <h1 class="text-black1 text-center font-font1 text-2xl">
+          Donde la comida, el ambiente y las personas se unen
+        </h1>
+        <button
+          class="bg-orange1 rounded p-2 font-font1 text-center text-white1 animate-bounce m-2"
+        >
+          <a href="#about">Conoce más</a>
+        </button>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="flex flex-row bg-orange1 items-center h-646">
+        <div class="basis">
+          <h1 class="text-red1 font-font1 ml-1 lg:pb-1 pt:73 text-2xl">
+            Sobre Nosotros
+          </h1>
+          <p class="ml-1 mr-1 text-justify text-lg font-font2">
+            Somos un restaurante vegano perfecto para todas las ocasiones. Los
+            platos son hechos con productos naturales y de calidad.
+
+            <br />
+            <br />
+            Además, de una mezcla de tonos contemporáneos y viva decoración
+            inspirada en la cultura salvadoreña, perfecta para cualquier vista y
+            paladar.
+          </p>
+        </div>
+        <div class="basis flex justify-end">
+          <img
+            class="lg:h-646 sm:143 lg:mr-0 sm:mr-20 object cover w-1920"
+            src="img/img5.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <div class="flex flex-row bg-red1 items-center">
+        <div class="basis">
+          <img class="h-1/2 w-1068" src="img/img8.jpg" alt="" />
+        </div>
+        <div class="basis flex justify-end">
+          <p class="mr-1 ml-1 text-justify text-lg font-font2 text-white1">
+            Todo esto acompañado de un ambiente agradable y decorado con obras
+            de arte que le dan realce al entorno creando una atmosfera
+            interesante para disfrutar en cualquier tipo de ocasión.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <h1
+      class="text-center font-font1 text-2xl bg-black pt-1 text-green1"
+      id="menu"
+    >
+      Menú
+    </h1>
+
+    <section id="menu" class="bg-black pt-5 flex flex-row items-center">
+      <div class="flex flex-wrap">
+        <div class="w-full lg:w-1/2 p-5">
+          <div class="md:flex rounded-xl p-8 md:p-0 bg-green1">
+            <img
+              class="h-96 w-full rounded-t-lg object-cover md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
+              src="img/menu1.jpg"
+              alt=""
+            />
+            <div class="pt-6 space-y-4 text-white text-center md:text-left p-5">
+              <div class="font-medium">
+                <div class="text-red1 text-xl font-font1">Menú 1</div>
+                <div class="text-brown1 text-lg font-font1">Gourmet</div>
+              </div>
+              <div>
+                <p
+                  class="text-lg font-medium text-purple-50 font-font2 text-justify"
+                >
+                  Preparaciones elaboradas con ingredientes exquisitamente
+                  seleccionados y de propiedades organolépticas, preparados con
+                  la mejor pasión y dedicación.
+                </p>
+                <p class="text-md text-red1 font-font1">Desde $5</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="w-full lg:w-1/2 p-5">
+          <div class="md:flex rounded-xl p-8 md:p-0 bg-green1">
+            <img
+              class="h-96 w-full rounded-t-lg object-cover md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
+              src="img/menu2.jpg"
+              alt=""
+            />
+            <div class="pt-6 space-y-4 text-white text-center md:text-left p-5">
+              <div class="font-medium">
+                <div class="text-red1 text-xl font-font1">Menú 2</div>
+                <div class="text-brown1 text-lg font-font1">Appetizer</div>
+              </div>
+              <div>
+                <p
+                  class="text-lg font-medium text-purple-50 font-font2 text-justify"
+                >
+                  Preparaciones elaboradas con diversos ingredientes para
+                  diferentes paladares y con los mejores sabores y texturas, con
+                  el fin de una degustación completa y especial para compartir.
+                </p>
+                <p class="text-md text-red1 font-font1">Desde $7</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="w-full lg:w-1/2 p-5">
+          <div class="md:flex rounded-xl p-8 md:p-0 bg-green1">
+            <img
+              class="h-96 w-full rounded-t-lg object-cover md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
+              src="img/menu3.jpg"
+              alt=""
+            />
+            <div class="pt-6 space-y-4 text-white text-center md:text-left p-5">
+              <div class="font-medium">
+                <div class="text-red1 text-xl font-font1">Menú 3</div>
+                <div class="text-brown1 text-lg font-font1">
+                  Desayuno Salvadoreño
+                </div>
+              </div>
+              <div>
+                <p class="text-lg font-medium text-purple-50 font-font2">
+                  El sabor de la cultura salvadoreña a tu paladar, sanos te
+                  ayudarán a comenzar el día de la mejor manera posible
+                </p>
+                <p class="text-md text-red1 font-font1">Desde $5</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="w-full lg:w-1/2 p-5">
+          <div class="md:flex rounded-xl p-8 md:p-0 bg-green1">
+            <img
+              class="h-96 w-full rounded-t-lg object-cover md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
+              src="img/menu4.jpg"
+              alt=""
+            />
+            <div class="pt-6 space-y-4 text-white text-center md:text-left p-5">
+              <div class="font-medium">
+                <div class="text-red1 text-xl font-font1">Menú 4</div>
+                <div class="text-brown1 text-lg font-font1">Mediterráneo</div>
+              </div>
+              <div>
+                <p class="text-lg font-medium text-purple-50 font-font2">
+                  Algunos de los ingredientes principales que protagonizan este
+                  tipo de cocina son el aceite de oliva, el pan, la pasta y el
+                  vino.
+                </p>
+                <p class="text-md text-red1 font-font1">Desde $5</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="w-full lg:w-1/2 p-5">
+          <div class="md:flex rounded-xl p-8 md:p-0 bg-green1">
+            <img
+              class="h-96 w-full rounded-t-lg object-cover md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
+              src="img/menu5.jpg"
+              alt=""
+            />
+            <div class="pt-6 space-y-4 text-white text-center md:text-left p-5">
+              <div class="font-medium">
+                <div class="text-red1 text-xl font-font1">Menú 5</div>
+                <div class="text-brown1 text-lg font-font1">Desayuno Light</div>
+              </div>
+              <div>
+                <p class="text-lg font-medium text-purple-50 font-font2">
+                  Comida completa, nutritiva, energética y saludable. Para no
+                  cometer el error de empezar el día comiendo mal.
+                </p>
+                <p class="text-md text-red1 font-font1">Desde $2</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="w-full lg:w-1/2 p-5">
+          <div class="md:flex rounded-xl p-8 md:p-0 bg-green1">
+            <img
+              class="h-96 w-full rounded-t-lg object-cover md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
+              src="img/menu7.jpg"
+              alt=""
+            />
+            <div class="pt-6 space-y-4 text-white text-center md:text-left p-5">
+              <div class="font-medium">
+                <div class="text-red1 text-xl font-font1">Menú 6</div>
+                <div class="text-brown1 text-lg font-font1">
+                  Comida Mexicana
+                </div>
+              </div>
+              <div>
+                <p class="text-lg font-medium text-purple-50 font-font2">
+                  Cocina tradicional mejicana es un modelo cultural completo que
+                  comprende actividades agrarias, técnicas culinarias y
+                  costumbres ancestrales.
+                </p>
+                <p class="text-md text-red1 font-font1">Desde $7</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="reservación">
+      <div class="flex justify-between bg-orange1">
+        <div class="flex flex-col md:max-w-xl md:flex-row justify-between">
+          <img src="img/img9.jpg" alt="" />
+
+          <form class="ml-10 mt-5" action="">
+            <h1 class="text-center font-font1 text-2xl pt-1 text-red1">
+              Haz tu reservación
+            </h1>
+            <label class="font-font1" for="">Nombre</label>
+            <br />
+            <input
+              type="text"
+              class="font-font2 text-md p-2 mt-2 outline outline-2 outline-orange1 hover:outline-red1"
+            />
+            <br />
+            <label class="font-font1" for="">Correo</label>
+            <br />
+            <input
+              type="email"
+              class="ffont-font2 text-md p-2 mt-2 outline outline-2 outline-orange1 hover:outline-red1"
+            />
+            <br />
+            <label class="font-font1 mt-2" for="">Fecha</label>
+            <br />
+            <input
+              type="date"
+              min="2023-01-01"
+              max="2023-12-31"
+              class="font-font2 text-md p-2 mt-2 hover:outline-red1"
+            />
+            <br />
+            <button
+              class="bg-red1 rounded p-2 font-font1 text-center text-white1 animate-bounce mt-4"
+            >
+              <a href="mailto:adrianaperez1796@gmail.com?Subject=Reservation"
+                >Enviar</a
+              >
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer class="bg-black text-center lg:text-left">
+      <div class="p-4 text-center text-green1">
+        <h1 class="font-font1 text-lg">© 2023 Copyright Mangos Restaurant</h1>
+      </div>
+    </footer>
+  </body>
+</html>
